@@ -20,7 +20,7 @@ const navLinks = [
     id: uuidv4(),
     title: "home",
     icon: <MdHomeFilled />,
-    isActive: false,
+    isActive: true,
     path: "/",
   },
   {
@@ -34,7 +34,7 @@ const navLinks = [
     id: uuidv4(),
     title: "live",
     icon: <MdLiveTv />,
-    isActive: true,
+    isActive: false,
     path: "/live",
   },
   {
